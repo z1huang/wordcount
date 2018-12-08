@@ -5,7 +5,7 @@
 **Instructor**: Ghassem Tofighi  
 
 ## Wordcount app
-A simple web app that calculates word-frequency pairs based on the text from a given URL
+A simple web app that calculates word-frequency pairs based on the text from a given URL. This app is based on the instructions found in the **Flask by example** website here: https://realpython.com/flask-by-example-part-1-project-setup/
 
 ## Main languages/libraries used
 Python, Flask, Flask-Migrate, Flask-Script, Flask-SQLAlchemy, PostgreSQL, BeautifulSoup, Natural Language Toolkit (NLTK), Bootstrap, JQuery
