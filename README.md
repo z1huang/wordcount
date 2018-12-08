@@ -14,7 +14,8 @@ Python, Flask, Flask-Migrate, Flask-Script, Flask-SQLAlchemy, PostgreSQL, Beauti
 The app takes an URL as input, reads the contents of the page and uses BeautifulSoup to 'clean' the text by removing the HTML tags, then it uses NLTK to 'tokenize' the raw text into individual words.  It then reads through the words and keep counts for each one, punctuation and words like 'I', 'me', 'the' are excluded from the count.  Lastly, it saves the results to the database and displays the results in a table (only the top 20 counts are displayed).  
 
 ## Watch the Video
-![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IlHRRdsn9xQ/0.jpg)  (https://www.youtube.com/watch?v=IlHRRdsn9xQ)
+![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IlHRRdsn9xQ/0.jpg)  
+(https://www.youtube.com/watch?v=IlHRRdsn9xQ)
 
 ## Deploy the app on Heroku
 Follow the steps below to deploy it on Heroku (it's assumed that you are familiar with git and Heroku:
